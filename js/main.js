@@ -16,5 +16,8 @@ submitButton.addEventListener('click', function(event) {
     // Here you can add code to handle the form submission, e.g., send data to a server
     console.log('Name:', name);
     console.log('Email:', email);
-}
+
+    
+
+    }
 );
