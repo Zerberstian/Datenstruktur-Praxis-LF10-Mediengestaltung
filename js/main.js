@@ -2,6 +2,13 @@ const nameInput = document.getElementById('name');
 const emailInput = document.getElementById('email');
 const submitButton = document.getElementById('submit');
 
+const benutzer = {
+    name: "Anna",
+    alter: 28,
+    email: "anna@example.com",
+    hobbies: ["Lesen", "Radfahren"]
+};
+
 submitButton.addEventListener('click', function(event) {
     event.preventDefault();
 
@@ -17,7 +24,7 @@ submitButton.addEventListener('click', function(event) {
     console.log('Name:', name);
     console.log('Email:', email);
 
-    
+
 
     }
 );
